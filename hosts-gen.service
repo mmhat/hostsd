@@ -1,0 +1,5 @@
+[Unit]
+Description=Generate /etc/hosts from several separate config files
+
+[Service]
+ExecStart=/usr/bin/hosts-gen
